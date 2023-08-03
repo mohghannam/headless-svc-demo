@@ -5,6 +5,7 @@ metadata:
   labels:
     app: httpd1
   name: httpd1
+  namespace: httpd-svc-demo
 spec:
   replicas: 1
   selector:

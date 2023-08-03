@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: httpd1-subdomain 
+  namespace: httpd-svc-demo
 spec:
   selector:
     app: httpd1
